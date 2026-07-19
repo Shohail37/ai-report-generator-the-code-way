@@ -45,10 +45,15 @@ streamlit run app.py
 ## Project structure
 
 ├── config.py       # LLM setup (Groq via CrewAI's LLM class)
+
 ├── crew.py         # Agent definitions and task pipeline
+
 ├── app.py          # Streamlit web UI
+
 ├── main.py         # CLI entry point
+
 ├── pdf_export.py   # Markdown → PDF conversion
+
 └── requirements.txt
 
 ## Possible extensions
