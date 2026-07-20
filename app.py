@@ -174,13 +174,13 @@ div[data-testid="stTextInput"] input {
     font-family: 'Inter', sans-serif;
     font-size: 1.05rem;
     padding: 14px 18px;
-    border-radius: 14px;
+    border-radius: 16px;
     border: 1.5px solid rgba(255, 255, 255, 0.35);
     background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(14px) saturate(160%);
+    backdrop-filter: blur(1px) saturate(160%);
     -webkit-backdrop-filter: blur(14px) saturate(160%);
     box-shadow: 0 4px 24px rgba(30, 27, 46, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.25);
-    color: var(--ink);
+    color: #FAF9F6;
     transition: border-color 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
 }
 
